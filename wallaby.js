@@ -17,6 +17,11 @@ module.exports = wallaby => ({
   env: {
     type: 'node'
   },
+  
+  testFramework: {
+    type: 'mocha',
+    path: 'mocha'
+  },
 
   workers: {initial: 1, regular: 1},
 
